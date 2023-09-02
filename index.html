@@ -1,73 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Your title here</title>
+    <meta name="description" content="A brief description of your site for search engines">
+    <meta name="author" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lucile Favero - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Lucile Favero</h1>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo.jpg">
+      <h1>Simple Website</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
     </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
+            </p>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#coding-projects">Coding Projects</a></li>
-            <li><a href="#poster-productions">Poster Productions</a></li>
-            <li><a href="#teaching-experience">Teaching Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Coming soon...</p>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>Master in Neuroscience, Geneva University (UNIGE) (09.2020 - 12.2023)</li>
-            <li>Master in Mathematics, Geneva University (09.2020 - 09.2022)</li>
-            <li>Bachelor in Mathematics, Geneva University (09.2016 - 06.2020)</li>
-            <li>Classes préparatoires aux grandes écoles, Claude Fauriel- St Etienne, France (09.2015 - 06.2016)</li>
-        </ul>
-    </section>
-
-    <section id="coding-projects">
-        <h2>Coding Projects</h2>
-        <ul>
-            <li>Machine learning Kaggle competition: “Income prediction” in Python, 3rd position</li>
-            <li>Implementation of 2D video game with Unity3D</li>
-            <li>Statistical analysis of the “breast cancer Wisconsin” data set in R</li>
-            <li>Implementation of the Frank-Wolfe method to solve the LASSO problem in Python</li>
-            <li>Implementation and optimization of LASSO in Python</li>
-            <li>Simulation of Runge-Kutta methods</li>
-        </ul>
-        <p>Check out my <a href="https://github.com/lucilefavero?tab=repositories" target="_blank">GitHub repositories</a> for more.</p>
-    </section>
-
-    <section id="poster-productions">
-        <h2>Poster Productions</h2>
-        <p>Various contributions to scientific conferences and symposiums.</p>
-    </section>
-
-    <section id="teaching-experience">
-        <h2>Teaching Experience</h2>
-        <p>Details coming soon...</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: Favero.pistoresi.lucile@gmail.com</p>
-        <p>Phone: 433 601 33 2202, +441 76 64 62387</p>
-    </section>
-
-    <footer>
-        <p>© 2023 Lucile Favero</p>
+    <footer>  
+      Footer region
     </footer>
-</body>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
 </html>
