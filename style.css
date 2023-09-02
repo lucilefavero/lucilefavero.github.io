@@ -7,15 +7,15 @@ body, h1, h2, ul, p {
 
 /* Add a background color and font to the page */
 body {
-    background-color: #f5f5f5;
+    background-color: rgb(253, 253, 254);
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: rgb(56, 35, 25);
 }
 
 /* Style the header */
 header {
-    background-color: #4CAF50;
+    background-color: rgb(201, 196, 193);
     color: white;
     text-align: center;
     padding: 1em;
@@ -24,9 +24,9 @@ header {
 
 /* Style the navigation menu */
 nav ul {
-    background-color: #333;
+    background-color: rgb(218, 227, 235);
     overflow: hidden;
-    color: white;
+    color: rgb(56, 35, 25);
 }
 
 nav ul li {
@@ -37,14 +37,14 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #555;
+    background-color: rgb(167, 138, 121);
 }
 
 /* Style the website sections */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(253, 253, 254);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -56,7 +56,7 @@ section ul li {
 
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: rgb(201, 196, 193);
     color: white;
     text-align: center;
     padding: 1em;
