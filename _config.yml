@@ -1,0 +1,55 @@
+# Site settings — lucilefavero.github.io
+# Built natively by GitHub Pages (no Actions). Only whitelisted plugins below.
+
+title: Lucile Favero
+description: >-
+  Lucile Favero is a doctoral researcher in human-centered AI at ELLIS Alicante.
+  She builds and empirically evaluates Socratic educational chatbots that
+  scaffold — rather than substitute — student reasoning.
+url: "https://lucilefavero.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Madrid
+
+author:
+  name: Lucile Favero
+  email: lucile@ellisalicante.org
+
+email: lucile@ellisalicante.org
+
+# CV download — update BOTH lines when you upload a new CV (see README.md)
+cv_path: /assets/cv/Lucile_Favero_CV_2026-08.pdf
+cv_updated: "August 2026"
+
+# External profiles (rendered in the footer and in JSON-LD)
+profiles:
+  orcid: https://orcid.org/0009-0005-2981-0124
+  scholar: https://scholar.google.com/citations?user=1TxDNLsAAAAJ
+  semanticscholar: https://www.semanticscholar.org/author/Lucile-Favero/2320308855
+  dblp: https://dblp.org/pid/387/1203.html
+  aclanthology: https://aclanthology.org/people/lucile-favero/
+  github: https://github.com/lucilefavero
+  linkedin: https://www.linkedin.com/in/lucilefavero/
+  ellis: https://ellisalicante.org/people/lucilefavero-en/
+  maike: https://ellisalicante.org/maike
+
+# Default social image for Open Graph / Twitter cards
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/lucile-favero.jpg
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Kept out of the built site
+exclude:
+  - README.md
+  - TODO.md
+  - serve.sh
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

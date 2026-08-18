@@ -1,0 +1,18 @@
+{%- comment -%}
+Renders one publication or poster entry.
+Usage: {% include pub-item.html pub=entry %}
+Fields used: authors, date, display (optional), title, url (optional),
+venue, award (optional), note (optional), links (optional list of {label, url}).
+{%- endcomment -%}
+<li class="pub">
+  <p class="pub-authors">{{ include.pub.authors | replace: "Favero, L.", "<strong>Favero, L.</strong>" }}
+    ({% if include.pub.display %}{{ include.pub.display }}{% else %}{{ include.pub.date | date: "%Y" }}{% endif %}).</p>
+  <p class="pub-title">{% if include.pub.url %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}</p>
+  <p class="pub-venue">{{ include.pub.venue }}{% if include.pub.note %} &middot; {{ include.pub.note }}{% endif %}</p>
+  {% if include.pub.award %}<p class="pub-award">★ {{ include.pub.award }}</p>{% endif %}
+  {% if include.pub.links %}
+  <ul class="pub-links">
+    {% for l in include.pub.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+</li>

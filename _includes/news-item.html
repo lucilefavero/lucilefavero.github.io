@@ -1,0 +1,8 @@
+{%- comment -%}
+Renders one news item. Usage: {% include news-item.html item=n %}
+Fields: date, display (optional pretty date), text, link (optional), link_label (optional).
+{%- endcomment -%}
+<li class="news-item">
+  <span class="news-date">{% if include.item.display %}{{ include.item.display }}{% else %}{{ include.item.date | date: "%-d %b %Y" }}{% endif %}</span>
+  <span class="news-text">{{ include.item.text }}{% if include.item.link %} <a class="news-link" href="{{ include.item.link }}">{{ include.item.link_label | default: "Link" }}</a>{% endif %}</span>
+</li>
