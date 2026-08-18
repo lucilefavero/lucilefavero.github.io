@@ -1,0 +1,187 @@
+# News archive — the single home of every news item. The homepage shows the
+# most recent few automatically. Sorted programmatically by date.
+# display: pretty date when the exact day is unknown or the item spans days.
+
+# ---- 2026 ----
+
+- date: 2026-06-25
+  text: "Invited seminar at the IDIAP social computing group, Martigny: “Teaching AI to Ask: MAIKE, a Socratic Chatbot”."
+
+- date: 2026-05-05
+  text: "Presented the MAIKE classroom-study design at the ML4ED group seminar, EPFL, Lausanne."
+
+- date: 2026-05-01
+  display: "2026"
+  text: "Position paper “From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)” to appear at the ACM AI Leadership Summit 2026."
+
+- date: 2026-04-13
+  display: "Apr 2026"
+  text: "Presented “MAIKE: Designing a Socratic Educational Chatbot to Foster Critical Thinking and Learner Agency” at the Tools for Thought workshop, ACM CHI 2026, Barcelona."
+  link: https://ai-tools-for-thought.github.io/workshop/documents/chi26/Favero_et_al_Maike_Educational_Chatbot_TfT_CHI26.pdf
+  link_label: Paper
+
+- date: 2026-03-16
+  text: "Outreach talk on AI to more than 700 high-school students at the IV ELLIS Alicante event for teenagers, Alicante."
+  link: https://ellisalicante.org/2026/03/16/pr-jornada-ies/
+  link_label: Press release
+
+- date: 2026-03-01
+  display: "Mar 2026"
+  text: "Started a six-month visiting research stay at the ML4ED lab, EPFL, Lausanne, hosted by Prof. Tanja Käser and funded by an ELIAS mobility grant (ELLIS Research Exchange 2026)."
+
+- date: 2026-02-15
+  display: "2026"
+  text: "New preprint: “Argumentative Essay Assessment with LLMs: A Critical Scoping Review” (Research Square)."
+  link: https://www.researchsquare.com/article/rs-8632843/v1
+  link_label: Preprint
+
+- date: 2026-02-02
+  display: "Feb 2026"
+  text: "New preprint: “Beyond Holistic Scores: Automatic Trait-Based Quality Scoring of Argumentative Essays” (arXiv:2602.04604)."
+  link: https://arxiv.org/abs/2602.04604
+  link_label: arXiv
+
+- date: 2026-02-01
+  display: "Feb 2026"
+  text: "New preprint: “AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics” (arXiv:2602.04598)."
+  link: https://arxiv.org/abs/2602.04598
+  link_label: arXiv
+
+# ---- 2025 ----
+
+- date: 2025-12-12
+  text: "Presented “Leveraging Small LLMs for Argument Mining in Education” at the 25th International Workshop on Computational Models of Natural Argument (CMNA 2025), online."
+  link: https://cmna-workshop.github.io/cmna25/news/
+  link_label: Workshop
+
+- date: 2025-11-12
+  text: "Television interview on intelligent tutoring systems, TV Andalucía."
+  link: https://www.youtube.com/watch?v=7kI8m0U_6uM
+  link_label: Video
+
+- date: 2025-10-29
+  text: "Presented the MAIKE project to the Galician Centre for Educational and Digital Innovation, Alicante."
+
+- date: 2025-10-08
+  text: "Talk on the risks and benefits of AI in education at “Youth, screens and relationships”, Proyecto Hombre, Murcia."
+  link: https://www.proyectohombremurcia.es/inscripcion-jornada-phm/
+  link_label: Event
+
+- date: 2025-09-17
+  text: "Panelist at the Fundación Banco Sabadell round table “La Cultura del Talento”, Barcelona."
+  link: https://www.lavanguardia.com/economia/20250919/11073838/fundacion-banco-sabadell-reune-300-jovenes-encuentro-inspiracional-cultura-talento-brl.html
+  link_label: La Vanguardia
+
+- date: 2025-09-16
+  display: "17 Sep 2025"
+  text: "Panelist at the round table “Can AI make us more human?”, Samsung Innovation Campus Summit: AI for a Better World, Madrid."
+  link: https://news.samsung.com/es/la-inteligencia-artificial-humana-eje-de-la-segunda-edicion-del-evento-samsung-innovation-campus-summit-ai-for-a-better-world
+  link_label: Samsung News
+
+- date: 2025-09-02
+  text: "Presented MAIKE at the ELIAS Plenary 2025, Alicante."
+  link: https://www.informacion.es/economia/2025/09/03/europa-busca-alicante-conciencia-inteligencia-artificial-121178364.html
+  link_label: Press
+
+- date: 2025-07-31
+  text: "Poster at the 12th Workshop on Argument Mining, ACL 2025, Vienna: “ELLIS Alicante at CQs-Gen 2025”."
+  link: https://aclanthology.org/2025.argmining-1.31/
+  link_label: Paper
+
+- date: 2025-07-22
+  text: "Opening talk at the GenAIHEd workshop, AIED 2025, Palermo: “Do AI tutors empower or enslave learners?”."
+
+- date: 2025-07-08
+  text: "New paper on arXiv: “Do AI Tutors Empower or Enslave Learners? Toward a Critical Use of AI in Education”."
+  link: https://arxiv.org/abs/2507.06878
+  link_label: arXiv
+
+- date: 2025-06-18
+  text: "New paper on arXiv: “ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task”."
+  link: https://arxiv.org/abs/2506.14371
+  link_label: arXiv
+
+- date: 2025-06-03
+  display: "3–16 Jun 2025"
+  text: "Ramon Ruiz-Dolz joined ELLIS Alicante as a visiting researcher on the argument-mining project."
+
+- date: 2025-05-08
+  text: "Poster at the Jornada del Doctorado en Informática (JDI 2025), Universidad de Alicante."
+  link: https://web.ua.es/es/phdinf/documentos/jdi-2025/lucilealysfaveromontero.pdf
+  link_label: Poster
+
+- date: 2025-04-17
+  text: "Radio interview on the Critical Questions Generation shared-task win, Cadena SER."
+
+- date: 2025-04-11
+  text: "Ranked 1st of 13 international teams in the Critical Questions Generation Shared Task (12th Workshop on Argument Mining, ACL 2025)."
+  link: https://ellisalicante.org/2025/04/14/npl-award-acl25.en
+  link_label: Press release
+
+- date: 2025-03-03
+  text: "Paper at the AI4ED workshop, AAAI 2025, Philadelphia: “Argument Mining in Education: Exploring the Potential of Open-Source Small LLMs”."
+  link: https://ellisalicante.org/assets/publications/Favero2025Argument.pdf
+  link_label: PDF
+
+- date: 2025-02-25
+  text: "Poster presentation and co-organization of the Collaborative AI and Modeling of Humans (CAIHu) Bridge, AAAI 2025, Philadelphia."
+
+- date: 2025-02-21
+  text: "Outreach talk to more than 400 high-school students on careers in technology, Alicante."
+
+- date: 2025-02-20
+  display: "21 Feb 2025"
+  text: "New preprint on arXiv: “Leveraging Small LLMs for Argument Mining in Education”."
+  link: https://arxiv.org/abs/2502.14389
+  link_label: arXiv
+
+- date: 2025-02-19
+  text: "Talk for the Anna Lindh Foundation Spanish Network and Casa Mediterráneo at ELLIS Alicante: “Teaching chatbots how to ask the right questions”."
+
+# ---- 2024 ----
+
+- date: 2024-10-18
+  text: "Talk at the AIEER 2024 workshop, ECAI 2024, Santiago de Compostela: “Enhancing Critical Thinking in Education with a Socratic Chatbot”."
+
+- date: 2024-08-28
+  display: "26–30 Aug 2024"
+  text: "Poster at the ELLIS Doctoral Symposium 2024, Paris."
+
+- date: 2024-08-22
+  text: "Research visit to co-supervisor Prof. Tanja Käser and the ML4ED lab, EPFL, Lausanne."
+
+- date: 2024-05-07
+  display: "7–8 May 2024"
+  text: "Invited speaker at “Shaping the Future, Keeping us Human”, Madrid."
+
+- date: 2024-05-02
+  text: "Best Poster Award at the Jornada del Doctorado en Informática (JDI 2024), Universidad de Alicante."
+  link: https://web.ua.es/es/phdinf/documentos/jdi-2024/lucilealysfavero.pdf
+  link_label: Poster
+
+- date: 2024-04-19
+  text: "Outreach talk to high-school students on careers in technology, Alicante."
+
+- date: 2024-03-28
+  text: "Radio interview, “AI in the educational environment”, Radio Estudiantil (Universidad de Valencia)."
+
+- date: 2024-03-01
+  text: "Talk at the Universidad de Alicante (and online): “Towards Student-Centric AI-Supported Learning”."
+
+- date: 2024-02-21
+  text: "Two posters at the Collaborative AI and Modeling of Humans (CAIHu) Bridge, AAAI 2024, Vancouver."
+
+- date: 2024-02-11
+  text: "Talk for the International Day of Women and Girls in Science (11F), IES Mutxamel."
+
+# ---- 2023 ----
+
+- date: 2023-11-02
+  text: "Started the PhD in Human-Centered Artificial Intelligence at ELLIS Alicante (pan-European ELLIS PhD Program)."
+
+- date: 2023-10-19
+  text: "Talk at “Structuring Knowledge for Flexible Behaviour”, FENS, Rungstedgaard, Denmark."
+
+- date: 2023-08-28
+  display: "28 Aug – 1 Sep 2023"
+  text: "Poster at the ELLIS Doctoral Symposium 2023, Helsinki."

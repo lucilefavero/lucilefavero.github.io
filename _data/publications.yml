@@ -1,0 +1,162 @@
+# Publications. One entry per paper — it appears on Home (if recent) and
+# Publications automatically. See README.md for how to add an entry.
+#
+# type: peer | preprint
+# date: used for sorting and for the displayed year. When only the year is
+#       certain, the month/day are approximate but the year is always right.
+# url:  what the title links to (best canonical page). Optional.
+# links: chips shown under the entry (PDF / arXiv / DOI / Code / Press...).
+
+- id: scaffolding2026
+  type: peer
+  date: 2026-05-01
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)"
+  venue: "ACM AI Leadership Summit 2026"
+  note: "To be published"
+
+- id: maike-chi26
+  type: peer
+  date: 2026-04-13
+  display: "2026"
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "MAIKE: Designing a Socratic Educational Chatbot to Foster Critical Thinking and Learner Agency"
+  venue: "Tools for Thought workshop at ACM CHI 2026, Barcelona, Spain"
+  url: https://ai-tools-for-thought.github.io/workshop/documents/chi26/Favero_et_al_Maike_Educational_Chatbot_TfT_CHI26.pdf
+  links:
+    - label: PDF
+      url: https://ai-tools-for-thought.github.io/workshop/documents/chi26/Favero_et_al_Maike_Educational_Chatbot_TfT_CHI26.pdf
+    - label: Code
+      url: https://github.com/ellisalicante/chatbot_maike/tree/master
+    - label: Project
+      url: https://ellisalicante.org/maike
+
+- id: cmna2025
+  type: peer
+  date: 2026-01-15
+  display: "2026"
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Leveraging Small LLMs for Argument Mining in Education: Argument Component Identification, Classification, and Assessment"
+  venue: "Proceedings of the 25th International Workshop on Computational Models of Natural Argument (CMNA 2025), CEUR-WS Vol-4166, pp. 11–30"
+  url: https://ceur-ws.org/Vol-4166/paper2.pdf
+  links:
+    - label: PDF
+      url: https://ceur-ws.org/Vol-4166/paper2.pdf
+    - label: arXiv
+      url: https://arxiv.org/abs/2502.14389
+
+- id: cqsgen2025
+  type: peer
+  date: 2025-07-31
+  authors: "Favero, L., Frases, D., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task — LLM-Based Question Generation and Selection"
+  venue: "Proceedings of the 12th Workshop on Argument Mining (ArgMining 2025), ACL 2025, Vienna, Austria"
+  award: "Winner of the Critical Questions Generation Shared Task — ranked 1st of 13 international teams"
+  url: https://aclanthology.org/2025.argmining-1.31/
+  links:
+    - label: ACL Anthology
+      url: https://aclanthology.org/2025.argmining-1.31/
+    - label: DOI
+      url: https://doi.org/10.18653/v1/2025.argmining-1.31
+    - label: arXiv
+      url: https://arxiv.org/abs/2506.14371
+    - label: Press release
+      url: https://ellisalicante.org/2025/04/14/npl-award-acl25.en
+
+- id: aied2025
+  type: peer
+  date: 2025-07-22
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Do AI Tutors Empower or Enslave Learners? Toward a Critical Use of AI in Education"
+  venue: "Applications of Generative AI to Support Teaching and Learning in Higher Education (GenAIHEd), workshop at AIED 2025, Palermo, Italy"
+  note: "Selected as the workshop's opening talk"
+  url: https://arxiv.org/abs/2507.06878
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2507.06878
+    - label: Workshop
+      url: https://sites.google.com/cornell.edu/genai-in-higher-education/home
+
+- id: ai4ed2025
+  type: peer
+  date: 2025-03-03
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Argument Mining in Education: Exploring the Potential of Open-Source Small LLMs for Argument Classification and Assessment"
+  venue: "AI for Education — Tools, Opportunities, and Risks in the Generative AI Era (AI4ED), workshop at AAAI 2025, Philadelphia, USA"
+  url: https://ellisalicante.org/assets/publications/Favero2025Argument.pdf
+  links:
+    - label: PDF
+      url: https://ellisalicante.org/assets/publications/Favero2025Argument.pdf
+    - label: Workshop
+      url: https://ai4ed.cc/workshops/aaai2025
+
+- id: aieer2024
+  type: peer
+  date: 2024-10-19
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Enhancing Critical Thinking in Education by Means of a Socratic Chatbot"
+  venue: "Proceedings of the 1st International Workshop on AI in Education and Educational Research (AIEER 2024), ECAI 2024, Santiago de Compostela, Spain. Springer CCIS"
+  note: "Cited 140+ times (Google Scholar, Aug 2026)"
+  url: https://doi.org/10.1007/978-3-031-93409-4_2
+  links:
+    - label: DOI
+      url: https://doi.org/10.1007/978-3-031-93409-4_2
+
+- id: caihu2024
+  type: peer
+  date: 2024-02-21
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Towards Student-Centric AI-Supported Learning: Teaching Chatbots to Ask the Right Questions"
+  venue: "Collaborative AI and Modeling of Humans (CAIHu) Bridge, AAAI 2024, Vancouver, Canada"
+  links:
+    - label: Workshop
+      url: https://sites.google.com/view/collab-ai-and-human-modeling/accepted-papers?authuser=0
+
+# ---- Preprints and under-review papers ----
+
+- id: score-construct2026
+  type: preprint
+  date: 2026-03-01
+  display: "2026"
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Score the Construct, Not the Average: How Trait-Level Ordinal Essay Scoring Recovers Writers Who Need It Most"
+  venue: "Under review"
+
+- id: scoping-review2026
+  type: preprint
+  date: 2026-02-15
+  display: "2026"
+  authors: "Favero, L., Gaudeau, G., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Argumentative Essay Assessment with LLMs: A Critical Scoping Review"
+  venue: "Research Square preprint (rs-8632843)"
+  note: "PRISMA 2020-conformant review of 46 studies (2022–2025) across six dimensions: datasets, traits, models, methods, evaluation, and analytics"
+  url: https://www.researchsquare.com/article/rs-8632843/v1
+  links:
+    - label: Preprint
+      url: https://www.researchsquare.com/article/rs-8632843/v1
+
+- id: beyond-holistic2026
+  type: preprint
+  date: 2026-02-02
+  display: "2026"
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "Beyond Holistic Scores: Automatic Trait-Based Quality Scoring of Argumentative Essays"
+  venue: "arXiv preprint arXiv:2602.04604"
+  note: "Evaluates a structured in-context-learning small-LLM pipeline against a supervised BigBird encoder with CORAL-style ordinal regression on 1,783 essays from the ASAP++ benchmark"
+  url: https://arxiv.org/abs/2602.04604
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2602.04604
+
+- id: beyond-outcomes2026
+  type: preprint
+  date: 2026-02-01
+  display: "2026"
+  authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
+  title: "AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and Ethics"
+  venue: "arXiv preprint arXiv:2602.04598"
+  note: "Position paper proposing an integrative four-dimensional framework for evaluating AI in education"
+  url: https://arxiv.org/abs/2602.04598
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2602.04598

@@ -1,0 +1,27 @@
+# Supervision, peer review, organization, and funding — rendered on the
+# Research page.
+
+supervision:
+  - name: "Marta Serrador"
+    detail: "M.Sc. thesis (2024–2025), Software Development for Mobile Devices, Universidad de Alicante — “Design and Implementation of an Interface for a Socratic Educational Chatbot”"
+    link: https://github.com/ellisalicante/chatbot_maike/tree/master
+    link_label: Code
+  - name: "Nuria Riera"
+    detail: "B.Sc. thesis (2024–2025), then research intern (Jun–Jul 2025), Multimedia Engineering, Universidad de Alicante"
+  - name: "Daniel Frases"
+    detail: "Research intern (May–Jun 2025), Advanced Technician in Cross-Platform Application Development, CFP Alfonso X El Sabio, Madrid — co-author of the ACL 2025 shared-task-winning paper"
+
+organization:
+  - "Co-organizer, Collaborative AI and Modeling of Humans (CAIHu) Bridge, AAAI 2025, Philadelphia (Feb 2025)"
+
+reviewing:
+  - "Educational Psychology (2026)"
+  - "ACM Transactions on Intelligent Systems and Technology (2025–2026)"
+  - "Acta Psychologica (2025)"
+  - "Collaborative AI and Modeling of Humans, AAAI Bridge program (2025)"
+  - "ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (2024)"
+
+funding:
+  - "ELIAS mobility grant — ELLIS Research Exchange 2026, EPFL, Switzerland (Horizon Europe network of excellence)"
+  - "ELSA mobility grant — ELLIS Doctoral Symposium 2024, Paris, France (Horizon Europe network of excellence)"
+  - "ELISE mobility grant — AAAI 2024 Bridge Program, Vancouver, Canada (H2020 ICT-48 ELLIS network)"

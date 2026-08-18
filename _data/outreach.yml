@@ -1,0 +1,60 @@
+# Public engagement and media appearances, sorted programmatically by date.
+# type: engagement (talks, panels, school events) | media (TV, radio, press)
+
+- date: 2026-03-16
+  type: engagement
+  text: "Outreach talk on AI to more than 700 high-school students — IV ELLIS Alicante event on AI for teenagers, Alicante, Spain"
+  link: https://ellisalicante.org/2026/03/16/pr-jornada-ies/
+  link_label: Press release
+
+- date: 2025-11-12
+  type: media
+  text: "Television interview on intelligent tutoring systems, TV Andalucía"
+  link: https://www.youtube.com/watch?v=7kI8m0U_6uM
+  link_label: Video
+
+- date: 2025-10-29
+  type: engagement
+  text: "Invited presentation of the MAIKE project at the Galician Centre for Educational and Digital Innovation, Alicante, Spain"
+
+- date: 2025-10-08
+  type: engagement
+  text: "Talk, “Risks and benefits of AI in education”, at “Youth, screens and relationships: connection/disconnection?”, Proyecto Hombre, Murcia, Spain"
+  link: https://www.proyectohombremurcia.es/inscripcion-jornada-phm/
+  link_label: Event
+
+- date: 2025-09-17
+  type: engagement
+  text: "Panelist, “Can AI make us more human?”, Samsung Innovation Campus Summit: AI for a Better World (2nd edition), Auditorio El Beatriz, Madrid, Spain"
+  link: https://news.samsung.com/es/la-inteligencia-artificial-humana-eje-de-la-segunda-edicion-del-evento-samsung-innovation-campus-summit-ai-for-a-better-world
+  link_label: Samsung News
+
+- date: 2025-09-17
+  type: media
+  text: "Television interview, “Benefits of AI tutors in education”, TV Sur, Madrid, Spain"
+
+- date: 2025-09-17
+  type: engagement
+  text: "Panelist, “La Cultura del Talento” technical panel, Fundación Banco Sabadell, Barcelona, Spain"
+  link: https://www.lavanguardia.com/economia/20250919/11073838/fundacion-banco-sabadell-reune-300-jovenes-encuentro-inspiracional-cultura-talento-brl.html
+  link_label: La Vanguardia
+
+- date: 2025-04-17
+  type: media
+  text: "Radio interview on the ACL 2025 Critical Questions Generation shared-task win, Cadena SER (online segment)"
+
+- date: 2025-02-21
+  type: engagement
+  text: "Outreach talk to more than 400 high-school students on careers in technology, Alicante, Spain"
+
+- date: 2025-02-19
+  type: engagement
+  text: "Talk, “Teaching chatbots how to ask the right questions”, Anna Lindh Foundation Spanish Network (ReFAL XXIV) & Casa Mediterráneo, ELLIS Alicante, Spain"
+
+- date: 2024-03-28
+  type: media
+  text: "Radio interview, “AI in the educational environment”, Radio Estudiantil (Universidad de Valencia), online"
+
+- date: 2024-02-11
+  type: engagement
+  text: "Talk for the International Day of Women and Girls in Science (11F), IES Mutxamel, Spain"

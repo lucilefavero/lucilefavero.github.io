@@ -1,0 +1,53 @@
+# Scientific talks and invited seminars, sorted programmatically by date.
+
+- date: 2026-06-25
+  title: "Teaching AI to Ask: MAIKE, a Socratic Chatbot"
+  event: "Social computing group seminar, IDIAP"
+  location: "Martigny, Switzerland"
+  note: "Invited seminar"
+
+- date: 2026-05-05
+  title: "Classroom-Study Design for Socratic Chatbots"
+  event: "ML4ED group seminar, EPFL"
+  location: "Lausanne, Switzerland"
+  note: "Invited seminar"
+
+- date: 2025-12-12
+  title: "Leveraging Small LLMs for Argument Mining in Education"
+  event: "25th International Workshop on Computational Models of Natural Argument (CMNA 2025)"
+  location: "Online"
+  link: https://cmna-workshop.github.io/cmna25/news/
+  link_label: Workshop
+
+- date: 2025-09-02
+  title: "An LLM-Based Educational Chatbot to Promote Critical Thinking"
+  event: "ELIAS Plenary 2025"
+  location: "Alicante, Spain"
+
+- date: 2025-07-22
+  title: "Do AI Tutors Empower or Enslave Learners? Toward a Critical Use of AI in Education"
+  event: "GenAIHEd workshop, AIED 2025"
+  location: "Palermo, Italy"
+  note: "Opening talk of the workshop"
+  link: https://sites.google.com/cornell.edu/genai-in-higher-education/home
+  link_label: Workshop
+
+- date: 2025-07-08
+  title: "An LLM-Based Educational Chatbot to Promote Critical Thinking"
+  event: "ELLIS Alicante Scientific Advisory Board meeting"
+  location: "Online"
+
+- date: 2024-10-18
+  title: "Enhancing Critical Thinking in Education with a Socratic Chatbot"
+  event: "AIEER 2024 workshop, ECAI 2024"
+  location: "Santiago de Compostela, Spain"
+
+- date: 2024-03-01
+  title: "Towards Student-Centric AI-Supported Learning: Teaching Chatbots to Ask the Right Questions"
+  event: "Universidad de Alicante"
+  location: "Alicante, Spain (and online)"
+
+- date: 2023-10-19
+  title: "A Theoretical Framework for Studying Sensorimotor Learning During Goal-Directed Tasks in Water-Restricted Mice"
+  event: "Structuring Knowledge for Flexible Behaviour, FENS"
+  location: "Rungstedgaard, Denmark"
