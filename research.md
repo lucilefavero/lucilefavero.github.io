@@ -42,14 +42,11 @@ designed to **support, not supplant, student thinking**.
 The concept was first presented at the CAIHu Bridge at AAAI 2024; the full system at the
 [Tools for Thought workshop at ACM CHI 2026](https://ai-tools-for-thought.github.io/workshop/documents/chi26/Favero_et_al_Maike_Educational_Chatbot_TfT_CHI26.pdf).
 MAIKE runs on small open-source language models, which keeps it inexpensive, transparent,
-and deployable in real schools. [Source code](https://github.com/ellisalicante/chatbot_maike/tree/master)
-is public.
+and deployable in real schools.
 
 ## The evidence: a classroom study
 
-I design and run empirical studies with **human participants, not simulations**. In the most
-recent one, secondary-school students revised argumentative essays with either MAIKE or a
-conventional answer-giving chatbot:
+Empirical studies have recently been conducted with **secondary-school students**:
 
 <ul class="study-facts">
   <li><strong>Ethics-approved</strong> classroom study</li>
@@ -60,14 +57,13 @@ conventional answer-giving chatbot:
   <li><strong>Full dialogue logs</strong> for interaction analysis</li>
 </ul>
 
-The study measures whether Socratic interaction improves the quality of students' written
-argumentation and critical thinking relative to a conventional chatbot, and the collected
-essays and dialogues ground the analysis papers below.
+The study explores how students interact with MAIKE and the impact on students' written
+argumentation and critical thinking, relative to a conventional chatbot tutor.
 
 ## The NLP underpinnings
 
-Evaluating reasoning at scale requires machinery for reading arguments. I build it with
-small open-source LLMs:
+To study reasoning at scale, I build tools that automatically read and assess students'
+arguments, using small open-source language models:
 
 - **Argument mining**: identifying, classifying, and assessing argument components in
   student essays ([CMNA 2025](https://ceur-ws.org/Vol-4166/paper2.pdf),
@@ -85,9 +81,9 @@ small open-source LLMs:
 After the PhD, my program is empirical: studying **how AI systems affect human cognition,
 learning, and agency**, with the study-design, measurement, and NLP machinery above, and
 with real participants. The four-dimensional evaluation framework (cognition, agency,
-emotion, ethics) is the agenda; classroom-scale experiments are the method.
+emotion, ethics) would be the agenda; classroom-scale experiments are the method.
 
-The bridge is already built: from March to September 2026 I am a visiting doctoral
+A first step is already underway: from March to September 2026 I am a visiting doctoral
 researcher at the **ML4ED lab, EPFL** (Prof. Tanja Käser), funded by a competitive ELIAS
 mobility grant. There I presented the classroom-study design and continued the
 collaboration that runs through all my PhD work.
