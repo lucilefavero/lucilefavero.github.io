@@ -1,0 +1,23 @@
+---
+layout: default
+title: News
+permalink: /news/
+description: >-
+  News archive — papers, talks, awards, and outreach by Lucile Favero, from
+  2023 to today.
+banner_title: News
+---
+
+{% assign items = site.data.news | sort: "date" | reverse %}
+{% assign current_year = "" %}
+{% for n in items %}
+  {% assign y = n.date | date: "%Y" %}
+  {% if y != current_year %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2>{{ y }}</h2>
+    <ul class="news-list">
+    {% assign current_year = y %}
+  {% endif %}
+  {% include news-item.html item=n %}
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}

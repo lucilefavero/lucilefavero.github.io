@@ -1,0 +1,37 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: >-
+  Peer-reviewed papers, preprints, and posters by Lucile Favero — with PDF,
+  arXiv, DOI, and code links for each.
+banner_title: Publications
+banner_sub: >-
+  Peer-reviewed papers, preprints, and posters. Also on Google Scholar, DBLP,
+  the ACL Anthology, and ORCID — see the footer.
+---
+
+{% assign pubs = site.data.publications | sort: "date" | reverse %}
+
+<h2 id="peer-reviewed">Peer-reviewed</h2>
+<ul class="pub-list">
+  {% for p in pubs %}{% if p.type == "peer" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+</ul>
+
+<h2 id="preprints">Preprints and under review</h2>
+<ul class="pub-list">
+  {% for p in pubs %}{% if p.type == "preprint" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+</ul>
+
+<h2 id="posters">Posters</h2>
+{% assign posters = site.data.posters | sort: "date" | reverse %}
+<ul class="pub-list">
+  {% for p in posters %}{% assign y = p.date | date: "%Y" | plus: 0 %}{% if y >= 2024 %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+</ul>
+
+<details class="pub-archive">
+  <summary>Earlier posters, 2021–2023 (neuroscience)</summary>
+  <ul class="pub-list">
+    {% for p in posters %}{% assign y = p.date | date: "%Y" | plus: 0 %}{% if y < 2024 %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+  </ul>
+</details>

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Talks & outreach
+permalink: /talks/
+description: >-
+  Scientific talks and invited seminars, public engagement, and media
+  appearances by Lucile Favero.
+banner_title: Talks &amp; outreach
+banner_sub: >-
+  Scientific talks and invited seminars — and the public side: panels, school
+  outreach, and media.
+---
+
+<h2 id="talks">Scientific talks and invited seminars</h2>
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+<ul class="item-list">
+  {% for t in talks %}
+  <li>
+    <span class="item-date">{{ t.date | date: "%-d %b %Y" }}</span>
+    <span class="item-title">{{ t.title }}.</span>
+    <span class="item-note"><em>{{ t.event }}</em>, {{ t.location }}.{% if t.note %} <strong>{{ t.note }}.</strong>{% endif %}{% if t.link %} <a href="{{ t.link }}">{{ t.link_label | default: "Link" }}</a>{% endif %}</span>
+  </li>
+  {% endfor %}
+</ul>
+
+{% assign outreach = site.data.outreach | sort: "date" | reverse %}
+
+<h2 id="engagement">Public engagement</h2>
+<p>Science communication is a deliberate part of this work — more than 1,100 high-school
+students reached across two talks in Alicante (2025–2026), plus panels and invited
+presentations for foundations, companies, and educators.</p>
+<ul class="item-list">
+  {% for o in outreach %}{% if o.type == "engagement" %}
+  <li>
+    <span class="item-date">{{ o.date | date: "%-d %b %Y" }}</span>
+    <span class="item-note">{{ o.text }}.{% if o.link %} <a href="{{ o.link }}">{{ o.link_label | default: "Link" }}</a>{% endif %}</span>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
+
+<h2 id="media">Media</h2>
+<ul class="item-list">
+  {% for o in outreach %}{% if o.type == "media" %}
+  <li>
+    <span class="item-date">{{ o.date | date: "%-d %b %Y" }}</span>
+    <span class="item-note">{{ o.text }}.{% if o.link %} <a href="{{ o.link }}">{{ o.link_label | default: "Link" }}</a>{% endif %}</span>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
