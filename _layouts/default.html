@@ -32,9 +32,19 @@
 
 {% if page.banner_title %}
 <div class="banner">
-  <div class="wrap">
-    <h1>{{ page.banner_title }}</h1>
-    {% if page.banner_sub %}<p class="banner-sub">{{ page.banner_sub }}</p>{% endif %}
+  <div class="wrap banner-inner">
+    <div>
+      <h1>{{ page.banner_title }}</h1>
+      {% if page.banner_sub %}<p class="banner-sub">{{ page.banner_sub }}</p>{% endif %}
+    </div>
+    {% if page.banner_photo %}
+    <img class="banner-photo"
+         src="{{ '/assets/img/lucile-favero-360.jpg' | relative_url }}"
+         srcset="{{ '/assets/img/lucile-favero-360.jpg' | relative_url }} 360w, {{ '/assets/img/lucile-favero.jpg' | relative_url }} 606w"
+         sizes="(max-width: 44rem) 6.5rem, 9rem"
+         width="303" height="360"
+         alt="Portrait of Lucile Favero">
+    {% endif %}
   </div>
 </div>
 {% endif %}
