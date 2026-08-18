@@ -323,7 +323,7 @@ details.pub-archive summary:hover { color: var(--accent-dark); }
   margin: 1rem 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.6rem;
 }
 .study-facts li {
@@ -405,6 +405,7 @@ blockquote p { margin: 0.4rem 0; }
   .banner-text { padding: 1.4rem 0 1.6rem; }
   .banner-photo { width: 6.5rem; }
   .highlights { grid-template-columns: 1fr; }
+  .study-facts { grid-template-columns: 1fr; }
   .news-item {
     grid-template-columns: 1fr;
     gap: 0.1rem;

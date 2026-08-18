@@ -13,16 +13,16 @@ banner_sub: >-
 
 ## The problem
 
-Students increasingly work with AI tools that hand them answers. That invites passive
-consumption instead of active thinking, and it carries real risks: cognitive offloading,
+Students increasingly work with AI tools that hand them answers. That invites **passive
+consumption instead of active thinking**, and it carries real risks: cognitive offloading,
 weakened reasoning, reduced autonomy and self-confidence, and pressure on academic
 integrity. If we aim to cultivate critical thinkers, we must critically evaluate the tools
 we use, and how we use them.
 
 ## The position: scaffold, do not substitute
 
-My co-authors and I argue that AI in education should be judged by whether it develops
-human reasoning rather than replaces it. In a position paper at the **ACM AI Leadership
+My co-authors and I argue that AI in education should be judged by whether it **develops
+human reasoning rather than replaces it**. In a position paper at the **ACM AI Leadership
 Summit 2026**, *From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle
 of AI in Education (and Beyond)*, we propose this as a guiding principle for human-centered
 AI. Two companion papers develop the argument: [*Do AI Tutors Empower or Enslave
@@ -33,11 +33,11 @@ evaluating educational AI beyond test scores.
 
 ## MAIKE: the system
 
-[MAIKE](https://ellisalicante.org/maike) is an open-source Socratic tutoring system I
+[MAIKE](https://ellisalicante.org/maike) is an **open-source Socratic tutoring system** I
 created and lead. Instead of answering, it analyzes a student's argumentative essay through
 argument mining and responds with adaptive critical questions, prompting the learner to
 reflect, articulate, and revise their reasoning through meaningful conversation. It is
-designed to support, not supplant, student thinking.
+designed to **support, not supplant, student thinking**.
 
 The concept was first presented at the CAIHu Bridge at AAAI 2024; the full system at the
 [Tools for Thought workshop at ACM CHI 2026](https://ai-tools-for-thought.github.io/workshop/documents/chi26/Favero_et_al_Maike_Educational_Chatbot_TfT_CHI26.pdf).
@@ -47,14 +47,15 @@ is public.
 
 ## The evidence: a classroom study
 
-I design and run empirical studies with human participants, not simulations. In the most
+I design and run empirical studies with **human participants, not simulations**. In the most
 recent one, secondary-school students revised argumentative essays with either MAIKE or a
 conventional answer-giving chatbot:
 
 <ul class="study-facts">
   <li><strong>Ethics-approved</strong> classroom study</li>
   <li><strong>~60</strong> secondary-school students</li>
-  <li><strong>Between-subjects</strong> design: MAIKE vs. conventional chatbot</li>
+  <li><strong>Between-subjects</strong> design</li>
+  <li><strong>MAIKE</strong> vs. a conventional chatbot</li>
   <li><strong>Pre/post</strong> argumentative essays</li>
   <li><strong>Full dialogue logs</strong> for interaction analysis</li>
 </ul>
@@ -72,8 +73,8 @@ small open-source LLMs:
   student essays ([CMNA 2025](https://ceur-ws.org/Vol-4166/paper2.pdf),
   [AI4ED @ AAAI 2025](https://ellisalicante.org/assets/publications/Favero2025Argument.pdf)).
 - **Critical-question generation**: the [system](https://aclanthology.org/2025.argmining-1.31/)
-  that ranked 1st of 13 international teams in the CQs-Gen shared task at ACL 2025, with a
-  two-stage pipeline combining creativity, analysis, and critical evaluation.
+  that ranked **1st of 13 international teams** in the CQs-Gen shared task at ACL 2025, with
+  a two-stage pipeline combining creativity, analysis, and critical evaluation.
 - **Essay scoring**: trait-level, ordinal scoring of argumentative essays rather than
   holistic averages ([arXiv:2602.04604](https://arxiv.org/abs/2602.04604)), plus a
   [critical scoping review](https://www.researchsquare.com/article/rs-8632843/v1) of LLM-based
@@ -81,8 +82,8 @@ small open-source LLMs:
 
 ## Where this goes
 
-After the PhD, my program is empirical: studying how AI systems affect human cognition,
-learning, and agency, with the study-design, measurement, and NLP machinery above, and
+After the PhD, my program is empirical: studying **how AI systems affect human cognition,
+learning, and agency**, with the study-design, measurement, and NLP machinery above, and
 with real participants. The four-dimensional evaluation framework (cognition, agency,
 emotion, ethics) is the agenda; classroom-scale experiments are the method.
 
