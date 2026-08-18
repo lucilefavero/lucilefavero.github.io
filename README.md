@@ -42,7 +42,7 @@ Open `_data/publications.yml`, copy this block, edit it:
       url: https://example.org/paper.pdf
 ```
 
-Optional extras: `award: "..."` (shown in burgundy with a star),
+Optional extras: `award: "..."` (shown in the accent purple with a star),
 `note: "..."` (shown after the venue), `display: "2027"` (overrides the
 displayed date). It appears on the Publications page automatically.
 
