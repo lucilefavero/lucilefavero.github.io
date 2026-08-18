@@ -40,6 +40,9 @@ defaults:
     values:
       image: /assets/img/lucile-favero.jpg
 
+# No theme — everything is custom (github-pages would otherwise inject Primer)
+theme: null
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

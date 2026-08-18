@@ -4,8 +4,9 @@
 set -e
 cd "$(dirname "$0")"
 
-# Use Homebrew Ruby (system Ruby is too old for Jekyll)
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+# Use Homebrew Ruby 3.4 (system Ruby is too old for Jekyll; Ruby 4.x is
+# too new for the github-pages gem)
+export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
 
 if ! command -v bundle >/dev/null 2>&1; then
   gem install bundler --no-document
