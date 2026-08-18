@@ -1,7 +1,7 @@
 # lucilefavero.github.io
 
 My academic website. Built with [Jekyll](https://jekyllrb.com), published
-automatically by GitHub Pages — **pushing to `main` is publishing**. No build
+automatically by GitHub Pages: **pushing to `main` is publishing**. No build
 step, no Actions, no JavaScript.
 
 ## Preview locally
@@ -19,7 +19,7 @@ takes a few minutes; after that it starts in seconds. Stop it with `Ctrl-C`.
 ## How to update the site
 
 **All content lives in `_data/*.yml`. You never touch HTML to add content.**
-Lists are sorted by date automatically — add entries anywhere in the file,
+Lists are sorted by date automatically; add entries anywhere in the file,
 order doesn't matter. After editing, commit and push; the site updates in
 about a minute.
 
@@ -88,12 +88,12 @@ Open `_data/outreach.yml`:
   link_label: Press                  # optional
 ```
 
-If it's also news-worthy, add a separate entry in `news.yml` — the two lists
+If it's also news-worthy, add a separate entry in `news.yml`; the two lists
 are independent.
 
 ### Add a poster
 
-Open `_data/posters.yml` — same fields as a paper (no `type:`). Posters from
+Open `_data/posters.yml`: same fields as a paper (no `type:`). Posters from
 2024 on are always visible; older ones fold into the collapsed section
 automatically.
 
@@ -118,7 +118,7 @@ Everything in the footer comes from `_config.yml` (`email:` and the
 
 | Path | What it is |
 |---|---|
-| `_data/*.yml` | **All content** — the only files you normally edit |
+| `_data/*.yml` | **All content**: the only files you normally edit |
 | `_config.yml` | Site title, email, CV path, profile links |
 | `index.html`, `research.md`, `publications.html`, `talks.html`, `news.html` | The five pages (layout, not content) |
 | `_layouts/default.html` | Shared frame: header, nav, banner, footer |
@@ -129,7 +129,7 @@ Everything in the footer comes from `_config.yml` (`email:` and the
 
 ## Sanity rules
 
-- Never invent a URL, DOI, or date — if unsure, leave the field out and add a
+- Never invent a URL, DOI, or date; if unsure, leave the field out and add a
   line to `TODO.md`.
 - The project is spelled **MAIKE**, always.
 - Test a new link before committing it (`curl -IL <url>` or just open it).

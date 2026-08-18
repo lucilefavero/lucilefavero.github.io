@@ -1,5 +1,5 @@
 /* ==========================================================================
-   lucilefavero.github.io — carried over from the old Google Site look:
+   lucilefavero.github.io. Carried over from the old Google Site look:
    white ground, #434343 text, purple #4C093E accent,
    Roboto for text, Merriweather for headings.
    ========================================================================== */
@@ -205,7 +205,6 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* ---- Home: intro ---- */
 .intro {
-  max-width: 46rem;
   margin-top: 1rem;
 }
 .intro-lede {

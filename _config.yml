@@ -1,11 +1,11 @@
-# Site settings — lucilefavero.github.io
+# Site settings for lucilefavero.github.io
 # Built natively by GitHub Pages (no Actions). Only whitelisted plugins below.
 
 title: Lucile Favero
 description: >-
   Lucile Favero is a doctoral researcher in human-centered AI at ELLIS Alicante.
   She builds and empirically evaluates Socratic educational chatbots that
-  scaffold — rather than substitute — student reasoning.
+  scaffold, rather than substitute, student reasoning.
 url: "https://lucilefavero.github.io"
 baseurl: ""
 lang: en
@@ -17,7 +17,7 @@ author:
 
 email: lucile@ellisalicante.org
 
-# CV download — update BOTH lines when you upload a new CV (see README.md)
+# CV download. Update BOTH lines when you upload a new CV (see README.md)
 cv_path: /assets/cv/Lucile_Favero_CV_2026-08.pdf
 cv_updated: "August 2026"
 
@@ -40,7 +40,7 @@ defaults:
     values:
       image: /assets/img/lucile-favero.jpg
 
-# No theme — everything is custom (github-pages would otherwise inject Primer)
+# No theme: everything is custom (github-pages would otherwise inject Primer)
 theme: null
 
 plugins:

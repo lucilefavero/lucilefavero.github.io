@@ -1,4 +1,4 @@
-# Publications. One entry per paper — it appears on Home (if recent) and
+# Publications. One entry per paper; it appears on Home (if recent) and
 # Publications automatically. See README.md for how to add an entry.
 #
 # type: peer | preprint
@@ -49,9 +49,9 @@
   type: peer
   date: 2025-07-31
   authors: "Favero, L., Frases, D., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
-  title: "ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task — LLM-Based Question Generation and Selection"
+  title: "ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task: LLM-Based Question Generation and Selection"
   venue: "Proceedings of the 12th Workshop on Argument Mining (ArgMining 2025), ACL 2025, Vienna, Austria"
-  award: "Winner of the Critical Questions Generation Shared Task — ranked 1st of 13 international teams"
+  award: "Winner of the Critical Questions Generation Shared Task, ranked 1st of 13 international teams"
   url: https://aclanthology.org/2025.argmining-1.31/
   links:
     - label: ACL Anthology
@@ -82,7 +82,7 @@
   date: 2025-03-03
   authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
   title: "Argument Mining in Education: Exploring the Potential of Open-Source Small LLMs for Argument Classification and Assessment"
-  venue: "AI for Education — Tools, Opportunities, and Risks in the Generative AI Era (AI4ED), workshop at AAAI 2025, Philadelphia, USA"
+  venue: "AI for Education: Tools, Opportunities, and Risks in the Generative AI Era (AI4ED), workshop at AAAI 2025, Philadelphia, USA"
   url: https://ellisalicante.org/assets/publications/Favero2025Argument.pdf
   links:
     - label: PDF

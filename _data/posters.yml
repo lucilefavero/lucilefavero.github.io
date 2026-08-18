@@ -1,9 +1,9 @@
-# Posters, newest first by date (sorted programmatically — order here doesn't matter).
+# Posters, newest first by date (sorted programmatically; order here doesn't matter).
 # display: pretty date when only the month is known.
 
 - date: 2025-07-31
   authors: "Favero, L., Frases, D., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
-  title: "ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task — LLM-Based Question Generation and Selection"
+  title: "ELLIS Alicante at CQs-Gen 2025: Winning the Critical Thinking Questions Shared Task: LLM-Based Question Generation and Selection"
   venue: "12th Workshop on Argument Mining, ACL 2025, Vienna, Austria"
   award: "Winner of the shared task (1st of 13 teams)"
   links:

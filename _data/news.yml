@@ -1,18 +1,18 @@
-# News archive — the single home of every news item. The homepage shows the
+# News archive: the single home of every news item. The homepage shows the
 # most recent few automatically. Sorted programmatically by date.
 # display: pretty date when the exact day is unknown or the item spans days.
 
 # ---- 2026 ----
 
 - date: 2026-06-25
-  text: "Invited seminar at the IDIAP social computing group, Martigny: “Teaching AI to Ask: MAIKE, a Socratic Chatbot”."
+  text: "Invited talk at the IDIAP social computing group, Martigny: “Teaching AI to Ask: MAIKE, a Socratic Chatbot”."
 
 - date: 2026-05-05
   text: "Presented the MAIKE classroom-study design at the ML4ED group seminar, EPFL, Lausanne."
 
 - date: 2026-08-18
   display: "2026"
-  text: "I will be presenting at the ACM AI Leadership Summit 2026 — “From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)”."
+  text: "I will be presenting at the ACM AI Leadership Summit 2026: “From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)”."
 
 - date: 2026-04-13
   display: "Apr 2026"
