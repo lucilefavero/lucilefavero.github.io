@@ -1,6 +1,6 @@
 /* ==========================================================================
    lucilefavero.github.io — carried over from the old Google Site look:
-   white ground, #434343 text, purple #641B74 accent,
+   white ground, #434343 text, purple #4C093E accent,
    Roboto for text, Merriweather for headings.
    ========================================================================== */
 
@@ -54,9 +54,9 @@
   --ink: #434343;
   --ink-strong: #2B2B2B;
   --muted: #6B6B6B;
-  --accent: #641B74;
-  --accent-dark: #41114A;
-  --accent-wash: #F5EEF7;
+  --accent: #4C093E;
+  --accent-dark: #2E0525;
+  --accent-wash: #F6EDF3;
   --rule: #E4E4E4;
   --band-gray: #F3F3F3;
   --sans: "Roboto", -apple-system, "Segoe UI", Arial, sans-serif;
@@ -158,25 +158,27 @@ main.wrap { padding-top: 1.5rem; padding-bottom: 3rem; }
 .banner {
   background: var(--accent);
   color: #fff;
-  padding: 2rem 0 2.2rem;
 }
 .banner h1 { color: #fff; margin: 0; }
+.banner-text { padding: 2rem 0 2.2rem; }
 .banner-sub {
   margin: 0.5rem 0 0;
-  color: #EBDCF2;
+  color: #E9D2E2;
   max-width: 44rem;
 }
 .banner-inner {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 1.5rem;
 }
+/* The photo bleeds the full height of the banner */
 .banner-photo {
   width: 9rem;
   flex-shrink: 0;
-  border-radius: 6px;
-  border: 3px solid rgba(255, 255, 255, 0.4);
+  align-self: stretch;
+  object-fit: cover;
+  object-position: 50% 30%;
 }
 
 /* ---- Buttons ---- */
@@ -401,7 +403,7 @@ blockquote p { margin: 0.4rem 0; }
   body { font-size: 1rem; }
   h1 { font-size: 1.55rem; }
   h2 { font-size: 1.25rem; }
-  .banner { padding: 1.4rem 0 1.6rem; }
+  .banner-text { padding: 1.4rem 0 1.6rem; }
   .banner-photo { width: 6.5rem; }
   .highlights { grid-template-columns: 1fr; }
   .news-item {
