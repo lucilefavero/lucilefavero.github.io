@@ -5,3 +5,11 @@ _site/
 vendor/
 .bundle/
 .DS_Store
+workflow-guide.md
+CLAUDE.md
+PLAN.md
+STATUS.md
+LOG.md
+log-decisions.csv
+log.csv
+.claude/

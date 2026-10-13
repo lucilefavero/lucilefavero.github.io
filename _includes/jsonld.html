@@ -1,6 +1,4 @@
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
+{% capture person_fields %}
   "@type": "Person",
   "name": "Lucile Favero",
   "givenName": "Lucile",
@@ -29,5 +27,23 @@
     "{{ site.profiles.linkedin }}",
     "{{ site.profiles.ellis }}"
   ]
+{% endcapture %}
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateModified": "{{ site.time | date_to_xmlschema }}",
+  "mainEntity": {
+  {{ person_fields }}
+  }
 }
 </script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {{ person_fields }}
+}
+</script>
+{% endif %}
