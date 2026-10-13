@@ -2,7 +2,7 @@
 
 ## To publish
 
-- [ ] **Push to GitHub**: `git push origin main`. This replaces the old
+- [x] **Push to GitHub**: `git push origin main`. This replaces the old
       redirect page. Then check <https://github.com/lucilefavero/lucilefavero.github.io/settings/pages>
       says "Deploy from a branch: main / (root)". The site should be live at
       <https://lucilefavero.github.io> a minute later.
@@ -13,22 +13,22 @@
 
 ## Facts to confirm (content is live but sourced only from the old site, not the CV)
 
-- [ ] **TV Andalucía interview, 12 Nov 2025** (news + media lists, with the
-      YouTube link): it was on the old site but is not in the CV's
-      dissemination list. Keep or drop?
-- [ ] **"Shaping the Future, Keeping us Human", Madrid, 7–8 May 2024**
-      (news archive): old site only, not in the CV. Keep or drop?
-- [ ] **Outreach talk, 19 Apr 2024** (news archive): the old site said "500
-      students"; the CV doesn't list this talk. I kept the item but removed
-      the number. Confirm the event and, if you like, the number.
+- [x] **TV Andalucía interview, 12 Nov 2025**: kept; listed in the Oct 2026 CV.
+- [x] **"Shaping the Future, Keeping us Human", Madrid, 7–8 May 2024**: kept;
+      listed in the Oct 2026 CV, now also on the Talks & outreach page.
+- [x] **Outreach talk, 19 Apr 2024**: kept, without a student count (the
+      Oct 2026 CV gives none); now also on the Talks & outreach page.
 
 ## Missing information (fields left empty on purpose, never invented)
 
-- [ ] **Classroom study**: when you're ready, add a news item announcing it
-      (I did not, because no completion date appears in the CV). Also tell me
-      if a results preprint should be linked from the Research page.
+- [x] **Classroom study**: news item added (Jun–Jul 2026, 65 students, from
+      the Oct 2026 CV).
+- [ ] **"Thinking Is Not Writing" (classroom-study results, under review)**:
+      in the Oct 2026 CV but held back from the site by Lucile for now. Add
+      it to Publications (and name it on the Research page) when she says so.
 - [ ] **"From Substitution to Scaffolding" (ACM AI Leadership Summit 2026)**:
-      currently "To be published", no link. Add PDF/DOI when out.
+      arXiv link added (2608.17451), "To appear". Add the DOI when the
+      proceedings are out.
 - [ ] **"Score the Construct, Not the Average"**: under review, no public
       link. Add one when it exists (arXiv or published version).
 - [ ] **Media links**: TV Sur interview (17 Sep 2025) and Cadena SER segment
@@ -41,7 +41,9 @@
 
 ## Small notes
 
-- The brief said 16 posters; the CV lists 15, and the site shows those 15.
+- The site shows 16 posters: the 15 from the Aug 2026 CV plus the ACM AI
+  Leadership Summit 2026 poster. The Oct 2026 CV dropped its Posters
+  section; Lucile chose to keep them on the site (Oct 2026).
 - Marta Serrador's supervision entry links "Code" to the MAIKE repository,
   the only code URL embedded in the CV. Point it elsewhere if her interface
   code lives in its own repo.
@@ -61,5 +63,6 @@
 - The detailed skills inventories (mathematics topics, neuroscience methods,
   toolkits): CV material; the Research page shows skills through the work
   instead.
-- Full education history: summarized in two lines on Home (both M.Sc.s,
-  highest distinction); details in the CV.
+- Full education history: summarized on Home (PhD thesis title, both
+  M.Sc.s with highest distinction); details in the CV. Languages are in the
+  footer. Pre-PhD lab positions stay in the CV.

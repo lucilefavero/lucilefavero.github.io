@@ -12,8 +12,12 @@
   date: 2026-05-01
   authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
   title: "From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)"
-  venue: "ACM AI Leadership Summit 2026"
-  note: "To be published"
+  venue: "Proceedings of the ACM AI Leadership Summit 2026, Atlanta, USA"
+  note: "To appear"
+  url: https://arxiv.org/abs/2608.17451
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2608.17451
 
 - id: maike-chi26
   type: peer
@@ -96,7 +100,7 @@
   authors: "Favero, L., Pérez-Ortiz, J. A., Käser, T., & Oliver, N."
   title: "Enhancing Critical Thinking in Education by Means of a Socratic Chatbot"
   venue: "Proceedings of the 1st International Workshop on AI in Education and Educational Research (AIEER 2024), ECAI 2024, Santiago de Compostela, Spain. Springer CCIS"
-  note: "Cited 140+ times (Google Scholar, Aug 2026)"
+  note: "Cited 170+ times (Google Scholar, Oct 2026)"
   url: https://doi.org/10.1007/978-3-031-93409-4_2
   links:
     - label: DOI

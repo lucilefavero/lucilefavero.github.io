@@ -32,7 +32,7 @@ and invited presentations for foundations, companies, and educators.</p>
 <ul class="item-list">
   {% for o in outreach %}{% if o.type == "engagement" %}
   <li>
-    <span class="item-date">{{ o.date | date: "%-d %b %Y" }}</span>
+    <span class="item-date">{% if o.display %}{{ o.display }}{% else %}{{ o.date | date: "%-d %b %Y" }}{% endif %}</span>
     <span class="item-note">{{ o.text }}.{% if o.link %} <a href="{{ o.link }}">{{ o.link_label | default: "Link" }}</a>{% endif %}</span>
   </li>
   {% endif %}{% endfor %}
@@ -42,7 +42,7 @@ and invited presentations for foundations, companies, and educators.</p>
 <ul class="item-list">
   {% for o in outreach %}{% if o.type == "media" %}
   <li>
-    <span class="item-date">{{ o.date | date: "%-d %b %Y" }}</span>
+    <span class="item-date">{% if o.display %}{{ o.display }}{% else %}{{ o.date | date: "%-d %b %Y" }}{% endif %}</span>
     <span class="item-note">{{ o.text }}.{% if o.link %} <a href="{{ o.link }}">{{ o.link_label | default: "Link" }}</a>{% endif %}</span>
   </li>
   {% endif %}{% endfor %}

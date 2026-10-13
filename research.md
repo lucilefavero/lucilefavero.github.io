@@ -23,8 +23,8 @@ we use, and how we use them.
 
 My co-authors and I argue that AI in education should be judged by whether it **develops
 human reasoning rather than replaces it**. In a position paper at the **ACM AI Leadership
-Summit 2026**, *From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle
-of AI in Education (and Beyond)*, we propose this as a guiding principle for human-centered
+Summit 2026**, [*From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle
+of AI in Education (and Beyond)*](https://arxiv.org/abs/2608.17451), we propose this as a guiding principle for human-centered
 AI. Two companion papers develop the argument: [*Do AI Tutors Empower or Enslave
 Learners?*](https://arxiv.org/abs/2507.06878) (opening talk of the GenAIHEd workshop, AIED
 2025) and [*AI in Education Beyond Learning Outcomes: Cognition, Agency, Emotion, and
@@ -46,11 +46,11 @@ and deployable in real schools.
 
 ## The evidence: a classroom study
 
-Empirical studies have recently been conducted with **secondary-school students**:
+A classroom study was conducted in June–July 2026:
 
 <ul class="study-facts">
   <li><strong>Ethics-approved</strong> classroom study</li>
-  <li><strong>~60</strong> secondary-school students</li>
+  <li><strong>65</strong> secondary-school students</li>
   <li><strong>Between-subjects</strong> design</li>
   <li><strong>MAIKE</strong> vs. a conventional chatbot</li>
   <li><strong>Pre/post</strong> argumentative essays</li>
@@ -83,8 +83,8 @@ learning, and agency**, with the study-design, measurement, and NLP machinery ab
 with real participants. The four-dimensional evaluation framework (cognition, agency,
 emotion, ethics) would be the agenda; classroom-scale experiments are the method.
 
-A first step is already underway: from March to September 2026 I am a visiting doctoral
-researcher at the **ML4ED lab, EPFL** (Prof. Tanja Käser), funded by a competitive ELIAS
+A first step was a six-month stay as a visiting doctoral researcher at the **ML4ED lab,
+EPFL** (Prof. Tanja Käser), from March to September 2026, funded by a competitive ELIAS
 mobility grant. There I presented the classroom-study design and continued the
 collaboration that runs through all my PhD work.
 

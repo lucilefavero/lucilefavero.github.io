@@ -4,15 +4,25 @@
 
 # ---- 2026 ----
 
+- date: 2026-10-07
+  text: "Talk at the IV Alicante Futura Summit, Parque Científico de Alicante: “AI and education: what do we want students to learn? MAIKE, a Socratic chatbot to support critical thinking”."
+  link: https://alicantefutura.org/summit-2026/
+  link_label: Event
+
+- date: 2026-08-31
+  text: "Poster at the ACM AI Leadership Summit 2026, Atlanta: “From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)”. The paper is on arXiv and will appear in the summit proceedings."
+  link: https://arxiv.org/abs/2608.17451
+  link_label: arXiv
+
+- date: 2026-07-15
+  display: "Jun–Jul 2026"
+  text: "Evaluated MAIKE in a classroom study with 65 secondary-school students, comparing it with a conventional chatbot during argumentative-essay revision."
+
 - date: 2026-06-25
   text: "Invited talk at the IDIAP social computing group, Martigny: “Teaching AI to Ask: MAIKE, a Socratic Chatbot”."
 
 - date: 2026-05-05
   text: "Presented the MAIKE classroom-study design at the ML4ED group seminar, EPFL, Lausanne."
-
-- date: 2026-08-18
-  display: "2026"
-  text: "I will be presenting at the ACM AI Leadership Summit 2026: “From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)”."
 
 - date: 2026-04-13
   display: "Apr 2026"

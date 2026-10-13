@@ -4,13 +4,12 @@
   title: "Teaching AI to Ask: MAIKE, a Socratic Chatbot"
   event: "Social computing group seminar, IDIAP"
   location: "Martigny, Switzerland"
-  note: "Invited seminar"
+  note: "Invited talk"
 
 - date: 2026-05-05
   title: "Classroom-Study Design for Socratic Chatbots"
   event: "ML4ED group seminar, EPFL"
   location: "Lausanne, Switzerland"
-  note: "Invited seminar"
 
 - date: 2025-12-12
   title: "Leveraging Small LLMs for Argument Mining in Education"
@@ -23,6 +22,8 @@
   title: "An LLM-Based Educational Chatbot to Promote Critical Thinking"
   event: "ELIAS Plenary 2025"
   location: "Alicante, Spain"
+  link: https://www.informacion.es/economia/2025/09/03/europa-busca-alicante-conciencia-inteligencia-artificial-121178364.html
+  link_label: Press
 
 - date: 2025-07-22
   title: "Do AI Tutors Empower or Enslave Learners? Toward a Critical Use of AI in Education"

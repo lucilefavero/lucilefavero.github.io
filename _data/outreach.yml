@@ -1,5 +1,12 @@
 # Public engagement and media appearances, sorted programmatically by date.
 # type: engagement (talks, panels, school events) | media (TV, radio, press)
+# display: pretty date when the item spans days (optional).
+
+- date: 2026-10-07
+  type: engagement
+  text: "Talk, “AI and education: what do we want students to learn? MAIKE, a Socratic chatbot to support critical thinking”, IV Alicante Futura Summit, Parque Científico de Alicante, Spain"
+  link: https://alicantefutura.org/summit-2026/
+  link_label: Event
 
 - date: 2026-03-16
   type: engagement
@@ -50,6 +57,15 @@
 - date: 2025-02-19
   type: engagement
   text: "Talk, “Teaching chatbots how to ask the right questions”, Anna Lindh Foundation Spanish Network (ReFAL XXIV) & Casa Mediterráneo, ELLIS Alicante, Spain"
+
+- date: 2024-05-07
+  display: "7–8 May 2024"
+  type: engagement
+  text: "Invited speaker, “Shaping the Future, Keeping us Human”, Madrid, Spain"
+
+- date: 2024-04-19
+  type: engagement
+  text: "Outreach talk to high-school students on careers in technology, Alicante, Spain"
 
 - date: 2024-03-28
   type: media
